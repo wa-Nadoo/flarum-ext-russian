@@ -57,38 +57,38 @@ flarum-tags:
 
     # These translations are used by the Choose Tags modal dialog.
     choose_tags:
-      choose_primary_placeholder: "Choose a primary tag|Choose {count} primary tags"
-      choose_secondary_placeholder: "Choose 1 more tag|Choose {count} more tags"
-      edit_title: "Edit Tags for {title}"
+      choose_primary_placeholder: "Укажите основной раздел|Укажите {count} основных разделов"
+      choose_secondary_placeholder: "Укажите больше 1 раздела|Укажите больше {count} разделов"
+      edit_title: "Изменить метки для {title}"
       submit_button: => core.ref.okay
-      title: Choose Tags for Your Discussion
+      title: Выберите метки для вашего обсуждения
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      choose_tags_link: Choose Tags
+      choose_tags_link: Выбрать метки
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      edit_tags_button: Edit Tags
+      edit_tags_button: Изменить метки
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
-      more_link: More...
+      more_link: Ещё...
       tags_link: => flarum-tags.ref.tags
-      untagged_link: Untagged
+      untagged_link: Без меток
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      added_tags_text: "{username} added the {tagsAdded}."
-      added_and_removed_tags_text: "{username} added the {tagsAdded} and removed the {tagsRemoved}."
-      removed_tags_text: "{username} removed the {tagsRemoved}."
-      tags_text: "{tags} tag|{tags} tags"
+      added_tags_text: "{username} добавил(а) {tagsAdded}."
+      added_and_removed_tags_text: "{username} добавил(а) {tagsAdded} и удалил(а) {tagsRemoved}."
+      removed_tags_text: "{username} удалил(а) {tagsRemoved}."
+      tags_text: "метка {tags}|метки {tags}"
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
 
     # This translation is displayed in place of the name of a tag that's been deleted.
-    deleted_tag_text: Deleted
+    deleted_tag_text: Удалена
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -96,6 +96,6 @@ flarum-tags:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    create_tag: Create Tag
-    name: Name
-    tags: Tags
+    create_tag: Создать метку
+    name: Название
+    tags: Метки
