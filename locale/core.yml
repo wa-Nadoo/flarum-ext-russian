@@ -176,7 +176,7 @@ core:
       confirmation_message: => core.ref.confirmation_email_sent
       confirm_password_placeholder: => core.ref.confirm_password
       dismiss_button: => core.ref.okay
-      incorrect_password_message: The password you entered is incorrect.
+      incorrect_password_message: Введенный вами пароль некорректен.
       submit_button: => core.ref.save_changes
       title: => core.ref.change_email
 
@@ -249,7 +249,7 @@ core:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
       email_sent_message: Вам отправлено письмо, содержащее ссылку для восстановления пароля. Если вы не получили письмо в течение нескольких минут, проверьте папку со спамом.
-      not_found_message: There is no user registered with that email address.
+      not_found_message: Пользователь с таким адресом email не найден.
       submit_button: Восстановить пароль
       text: Введите свой email, на который будет выслана ссылка для сброса пароля.
       title: Пароль забыт
@@ -381,8 +381,8 @@ core:
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
     user_email_confirmation:
       alert_message: => core.ref.confirmation_email_sent
-      resend_button: Resend Confirmation Email
-      sent_message: Sent
+      resend_button: Отправить email заново
+      sent_message: Отправить
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
